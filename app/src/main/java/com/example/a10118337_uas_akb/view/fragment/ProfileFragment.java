@@ -1,8 +1,7 @@
 package com.example.a10118337_uas_akb.view.fragment;
-//NAMA  : LUTHFI RIFQI ZULFIQAR
-//NIM   : 10118312
-//KELAS : IF-8
-//TGL   : 3-6 JUNI 2021
+// Adittya Kamal Mahardin
+// IF8
+// 10118337
 
 import android.os.Bundle;
 import android.view.LayoutInflater;

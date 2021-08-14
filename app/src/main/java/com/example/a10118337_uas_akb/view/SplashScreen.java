@@ -1,5 +1,7 @@
 package com.example.a10118337_uas_akb.view;
-
+// Adittya Kamal Mahardin
+// IF8
+// 10118337
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;

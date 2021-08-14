@@ -1,5 +1,7 @@
 package com.example.a10118337_uas_akb.view.fragment;
-
+// Adittya Kamal Mahardin
+// IF8
+// 10118337
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -72,7 +74,7 @@ public class HomeFragment extends Fragment{
 
         System.out.println("test: " + database);
 
-        recycleAdapter = new RecycleAdapter(list, this.getContext());
+        recycleAdapter = new RecycleAdapter(list,getContext(),getActivity());
         recyclerView.setAdapter(recycleAdapter);
 
         database.addListenerForSingleValueEvent(new ValueEventListener() {

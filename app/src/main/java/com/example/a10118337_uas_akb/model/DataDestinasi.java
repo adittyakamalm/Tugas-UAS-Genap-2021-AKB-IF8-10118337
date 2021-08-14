@@ -5,24 +5,26 @@ package com.example.a10118337_uas_akb.model;
 //IF-8
 
 import com.google.android.gms.maps.model.LatLng;
-
+// Adittya Kamal Mahardin
+// IF8
+// 10118337
 public class DataDestinasi {
     String nama;
     String keterangan;
     String alamat;
     String ImgUrl;
-    String latitude;
-    String longitude;
+    double latitude;
+    double longitude;
 
     public String getImgUrl() {
         return ImgUrl;
     }
 
-    public String getLatitude() {
+    public double getLatitude() {
         return latitude;
     }
 
-    public String getLongitude() {
+    public double getLongitude() {
         return longitude;
     }
 

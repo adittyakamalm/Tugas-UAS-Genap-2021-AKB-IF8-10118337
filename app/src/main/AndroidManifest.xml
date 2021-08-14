@@ -20,11 +20,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.MainActivity" />
+        <activity android:name=".view.MapsActivity" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAJ0XKmbJuSYUQKaa1wp6Li4fllqNC9298"
+            />
     </application>
-
-    <meta-data
-        android:name="com.google.android.geo.API_KEY"
-        android:value="${MAPS_API_KEY}" />
-
 
 </manifest>

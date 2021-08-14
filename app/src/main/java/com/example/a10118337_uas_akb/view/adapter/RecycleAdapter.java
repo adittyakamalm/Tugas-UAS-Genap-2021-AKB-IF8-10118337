@@ -1,6 +1,10 @@
 package com.example.a10118337_uas_akb.view.adapter;
-
+// Adittya Kamal Mahardin
+// IF8
+// 10118337
+import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +19,7 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.bumptech.glide.Glide;
 import com.example.a10118337_uas_akb.R;
 import com.example.a10118337_uas_akb.model.DataDestinasi;
+import com.example.a10118337_uas_akb.view.MapsActivity;
 
 
 import java.util.List;
@@ -22,11 +27,12 @@ import java.util.List;
 public class RecycleAdapter extends RecyclerView.Adapter{
     Context mContext;
     private List<DataDestinasi> list;
+    Activity a;
 
-
-    public RecycleAdapter(List<DataDestinasi> list, Context context) {
+    public RecycleAdapter(List<DataDestinasi> list, Context context, Activity a) {
         this.list = list;
         mContext = context;
+        this.a=a;
     }
 
     @NonNull
@@ -41,6 +47,12 @@ public class RecycleAdapter extends RecyclerView.Adapter{
         DataDestinasi destinasi = list.get(position);
         ((MyViewHolder) holder).bindView(destinasi);
         Glide.with(mContext).load(destinasi.getImgUrl()).into(((MyViewHolder) holder).ImgUrl);
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(a, MapsActivity.class);
+            intent.putExtra("lat", destinasi.getLatitude());
+            intent.putExtra("lng", destinasi.getLongitude());
+            a.startActivity(intent);
+        });
     }
 
 

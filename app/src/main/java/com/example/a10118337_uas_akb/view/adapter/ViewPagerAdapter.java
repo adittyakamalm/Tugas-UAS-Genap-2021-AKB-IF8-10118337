@@ -1,5 +1,7 @@
 package com.example.a10118337_uas_akb.view.adapter;
-
+// Adittya Kamal Mahardin
+// IF8
+// 10118337
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
