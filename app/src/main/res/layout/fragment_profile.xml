@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profil"
+        android:layout_centerHorizontal="true"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/adittya" />
+
+    <TextView
+        android:id="@+id/account_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/cooper"
+        android:text="PROFILE"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/account_profil"
+        android:layout_width="42dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/ic_profile" />
+
+    <ImageView
+        android:id="@+id/account_nim"
+        android:layout_width="41dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/account_profil"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="27dp"
+        android:src="@drawable/ic_nim" />
+
+    <ImageView
+        android:id="@+id/account_kelas"
+        android:layout_width="40dp"
+        android:layout_height="51dp"
+        android:layout_below="@+id/account_nim"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/ic_kelas" />
+
+    <ImageView
+        android:layout_below="@+id/account_kelas"
+        android:id="@+id/account_email"
+        android:src="@drawable/ic_email"
+        android:layout_width="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="30dp"
+        android:layout_height="40dp"
+        />
+
+    <TextView
+        android:id="@+id/account_nama"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="5dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/cooper"
+        android:layout_below="@id/account_title"
+        android:text="NAMA"
+        android:textSize="15dp"
+        android:layout_toEndOf="@id/account_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/account_derandyf"
+        android:textColor="@color/black"
+        android:fontFamily="@font/centaur"
+        android:textSize="20dp"
+        android:layout_below="@id/account_nama"
+        android:text="Adittya Kamal Mahardin"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/account_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/account_nim_text"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/cooper"
+        android:layout_below="@id/account_derandyf"
+        android:text="NIM"
+        android:textSize="15dp"
+        android:layout_toEndOf="@id/account_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/account_10118327"
+        android:textColor="@color/black"
+        android:fontFamily="@font/centaur"
+        android:textSize="20dp"
+        android:layout_below="@id/account_nim_text"
+        android:text="10118337"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/account_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/account_kelas_text"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/cooper"
+        android:layout_below="@id/account_10118327"
+        android:text="KELAS"
+        android:textSize="15dp"
+        android:layout_toEndOf="@id/account_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/account_if8"
+        android:textColor="@color/black"
+        android:fontFamily="@font/centaur"
+        android:textSize="20dp"
+        android:layout_below="@id/account_kelas_text"
+        android:text="IF-8"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/account_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/account_email_text"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/black"
+        android:layout_marginStart="5dp"
+        android:fontFamily="@font/cooper"
+        android:layout_below="@id/account_if8"
+        android:text="EMAIL"
+        android:textSize="15dp"
+        android:layout_toEndOf="@id/account_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/account_deranemail"
+        android:textColor="@color/black"
+        android:fontFamily="@font/centaur"
+        android:textSize="20dp"
+        android:layout_below="@id/account_email_text"
+        android:text="adittyakamalm@gmail.com"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@id/account_profil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "4070873165",
+    "project_id": "pariwesata",
+    "storage_bucket": "pariwesata.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4070873165:android:d447bd17dfe255b285a404",
+        "android_client_info": {
+          "package_name": "com.example.a10118337_uas_akb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4070873165-j5gnov71h2h1mst4ar27p5lb3rrkaq9g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCavtgSDSbSWBzvalblnBRVNzFGZ2Yim_o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4070873165-j5gnov71h2h1mst4ar27p5lb3rrkaq9g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
